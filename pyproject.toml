@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-remoteclipvae-qwenvl"
+version = "1.0.0"
+description = "双机 ComfyUI 分离套件：远程 CLIP/VAE/文本编码 + 远程 QwenVL 图生文/提示词增强/视频反推，本机只留 UNet 与前端，重活全在 RemoteCLIPVAE 服务端"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/YOUR-NAME/ComfyUI-RemoteCLIPVAE"
+
+[tool.comfy]
+# 发布者 ID：registry.comfy.org 个人页 @ 后面那一串（创建后不可改）
+PublisherId = "YOUR-PUBLISHER-ID"
+DisplayName = "RemoteCLIPVAE + QwenVL Remote"
+Icon = ""
+requires-comfyui = ">=0.3.0"
